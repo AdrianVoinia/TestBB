@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ majorVersion="9"
+ minorVersion="5"
+ universal="password">
+    <Things></Things>
+</Entities>
+;Content-Type=application/json
