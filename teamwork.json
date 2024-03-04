@@ -1,1 +1,12 @@
-{ "entity": "", "editor": "-", "status": "free" }
+{
+  "projectName": "",
+  "repoURL": "",
+  "entities": [
+    {
+      "entity": "",
+      "editor": "-",
+      "status": "free",
+      "path": "Groups/.."
+    }
+  ]
+}
