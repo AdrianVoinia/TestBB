@@ -1,12 +1,12 @@
 {
-  "projectName": "",
+  "projectName": "PTCSC.TestBB",
   "repoURL": "",
   "entities": [
     {
-      "entity": "",
+      "entity": "PTCSC.TestBB.Admin_UG",
       "editor": "-",
       "status": "free",
-      "path": "Groups/.."
+      "path": "Groups"
     }
   ]
 }
