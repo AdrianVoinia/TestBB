@@ -7,6 +7,12 @@
       "editor": "-",
       "status": "free",
       "path": "Groups"
+    },
+    {
+      "entity": "PTCSC.TestBB.Management_TS",
+      "editor": "-",
+      "status": "free",
+      "path": "ThingShapes"
     }
   ]
 }
