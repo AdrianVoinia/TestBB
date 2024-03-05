@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities headers="Content-Type=application/json" majorVersion="9" minorVersion="5" universal="password">
     <ThingTemplates>
-        <ThingTemplate aspect.isSystemObject="false" baseThingTemplate="PTC.Base.CommonManager_TT" description="test" documentationContent="" effectiveThingPackage="ConfiguredThing" homeMashup="" inheritedValueStream="" name="PTCSC.TestBB.Manager_TT" projectName="PTCDefaultProject" tags="" thingPackage="" valueStream="">
+        <ThingTemplate aspect.isSystemObject="false" baseThingTemplate="PTC.Base.CommonManager_TT" description="test" documentationContent="" effectiveThingPackage="ConfiguredThing" homeMashup="" inheritedValueStream="" name="PTCSC.TestBB.Manager_TT" projectName="PTCSC.TestBB" tags="" thingPackage="" valueStream="">
             <avatar/>
             <DesignTimePermissions>
                 <Create/>
