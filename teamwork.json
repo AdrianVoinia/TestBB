@@ -1,18 +1,1 @@
-{
-  "projectName": "PTCSC.TestBB",
-  "repoURL": "",
-  "entities": [
-    {
-      "entity": "PTCSC.TestBB.Admin_UG",
-      "editor": "-",
-      "status": "free",
-      "path": "Groups"
-    },
-    {
-      "entity": "PTCSC.TestBB.Management_TS",
-      "editor": "-",
-      "status": "free",
-      "path": "ThingShapes"
-    }
-  ]
-}
+{"repoURL":"","entities":[{"editor":"AdrianVoinia","path":"Groups","entity":"PTCSC.TestBB.Admin_UG","status":"free"},{"editor":"-","path":"ThingShapes","entity":"PTCSC.TestBB.Management_TS","status":"free"}],"projectName":"PTCSC.TestBB"}
