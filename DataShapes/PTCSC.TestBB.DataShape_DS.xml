@@ -15,7 +15,9 @@
             </VisibilityPermissions>
             <ConfigurationTableDefinitions/>
             <ConfigurationTables/>
-            <FieldDefinitions/>
+            <FieldDefinitions>
+                <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="test" ordinal="1"/>
+            </FieldDefinitions>
         </DataShape>
     </DataShapes>
 </Entities>
