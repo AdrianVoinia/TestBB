@@ -63,9 +63,13 @@
             <RemotePropertyBindings/>
             <RemoteServiceBindings/>
             <RemoteEventBindings/>
-            <AlertConfigurations/>
+            <AlertConfigurations>
+                <AlertDefinitions name="test24"/>
+            </AlertConfigurations>
             <ThingShape>
-                <PropertyDefinitions/>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.dataChangeType="VALUE" baseType="STRING" category="" description="" isLocalOnly="false" name="test24" ordinal="2"/>
+                </PropertyDefinitions>
                 <ServiceDefinitions/>
                 <EventDefinitions/>
                 <ServiceMappings/>
