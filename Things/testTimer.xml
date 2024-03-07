@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities headers="Content-Type=application/json" majorVersion="9" minorVersion="5" universal="password">
+    <Things>
+        <Thing description="" documentationContent="" effectiveThingPackage="TimerThing" enabled="true" homeMashup="" identifier="" inheritedValueStream="" name="testTimer" projectName="PTCSC.TestBB" published="false" tags="" thingTemplate="Timer" valueStream="">
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions/>
+            <ConfigurationTables>
+                <ConfigurationTable dataShapeName="" description="General Settings" isHidden="true" isMultiRow="false" name="Settings" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="true" baseType="BOOLEAN" description="Automatically enable timer on startup" name="enabled" ordinal="0"/>
+                            <FieldDefinition baseType="USERNAME" description="User context in which to run event handlers" name="runAsUser" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="60000.0" baseType="NUMBER" description="Update rate" name="updateRate" ordinal="0"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <enabled>true</enabled>
+                            <runAsUser><![CDATA[Administrator]]></runAsUser>
+                            <updateRate>60000.0</updateRate>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ImplementedShapes/>
+            <ThingProperties/>
+        </Thing>
+    </Things>
+</Entities>
