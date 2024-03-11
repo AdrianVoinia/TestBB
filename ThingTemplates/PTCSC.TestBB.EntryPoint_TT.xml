@@ -32,9 +32,13 @@
             <RemotePropertyBindings/>
             <RemoteServiceBindings/>
             <RemoteEventBindings/>
-            <AlertConfigurations/>
+            <AlertConfigurations>
+                <AlertDefinitions name="bla"/>
+            </AlertConfigurations>
             <ThingShape>
-                <PropertyDefinitions/>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.dataChangeType="VALUE" baseType="STRING" category="" description="" isLocalOnly="false" name="bla" ordinal="2"/>
+                </PropertyDefinitions>
                 <ServiceDefinitions>
                     <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="test">
                         <ResultType baseType="STRING" description="" name="result" ordinal="0"/>
