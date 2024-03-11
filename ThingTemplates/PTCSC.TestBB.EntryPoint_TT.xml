@@ -34,10 +34,12 @@
             <RemoteEventBindings/>
             <AlertConfigurations>
                 <AlertDefinitions name="bla"/>
+                <AlertDefinitions name="test3"/>
             </AlertConfigurations>
             <ThingShape>
                 <PropertyDefinitions>
                     <PropertyDefinition aspect.dataChangeType="VALUE" baseType="STRING" category="" description="" isLocalOnly="false" name="bla" ordinal="2"/>
+                    <PropertyDefinition aspect.dataChangeType="VALUE" baseType="STRING" category="" description="" isLocalOnly="false" name="test3" ordinal="3"/>
                 </PropertyDefinitions>
                 <ServiceDefinitions>
                     <ServiceDefinition aspect.isAsync="false" category="" description="" isAllowOverride="false" isLocalOnly="false" isOpen="false" isPrivate="false" name="test">
