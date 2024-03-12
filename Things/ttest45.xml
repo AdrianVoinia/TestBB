@@ -16,7 +16,9 @@
             <ConfigurationTableDefinitions/>
             <ConfigurationTables/>
             <ThingShape>
-                <PropertyDefinitions/>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.dataChangeType="VALUE" baseType="STRING" category="" description="" isLocalOnly="false" name="newPne" ordinal="2"/>
+                </PropertyDefinitions>
                 <ServiceDefinitions/>
                 <EventDefinitions/>
                 <ServiceMappings/>
@@ -27,7 +29,9 @@
             <RemotePropertyBindings/>
             <RemoteServiceBindings/>
             <RemoteEventBindings/>
-            <AlertConfigurations/>
+            <AlertConfigurations>
+                <AlertDefinitions name="newPne"/>
+            </AlertConfigurations>
             <ImplementedShapes/>
             <ThingProperties/>
         </Thing>
