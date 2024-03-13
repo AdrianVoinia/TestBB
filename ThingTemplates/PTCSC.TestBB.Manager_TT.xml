@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities headers="Content-Type=application/json" majorVersion="9" minorVersion="5" universal="password">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities headers="X-XSRF-TOKEN=TWX-XSRF-TOKEN-VALUE:appKey=e3fcbf3e-2eb3-4d18-b24e-cf92c3b53d7b:Content-Type=application/json" majorVersion="9" minorVersion="5" universal="password">
     <ThingTemplates>
         <ThingTemplate aspect.isSystemObject="false" baseThingTemplate="PTC.Base.CommonManager_TT" description="test" documentationContent="" effectiveThingPackage="ConfiguredThing" homeMashup="" inheritedValueStream="" name="PTCSC.TestBB.Manager_TT" projectName="PTCSC.TestBB" tags="" thingPackage="" valueStream="">
             <avatar/>
@@ -63,9 +63,13 @@
             <RemotePropertyBindings/>
             <RemoteServiceBindings/>
             <RemoteEventBindings/>
-            <AlertConfigurations/>
+            <AlertConfigurations>
+                <AlertDefinitions name="one"/>
+            </AlertConfigurations>
             <ThingShape>
-                <PropertyDefinitions/>
+                <PropertyDefinitions>
+                    <PropertyDefinition aspect.dataChangeType="VALUE" baseType="STRING" category="" description="" isLocalOnly="false" name="one" ordinal="2"/>
+                </PropertyDefinitions>
                 <ServiceDefinitions/>
                 <EventDefinitions/>
                 <ServiceMappings/>
