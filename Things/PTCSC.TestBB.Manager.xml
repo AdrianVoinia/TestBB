@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities headers="Content-Type=application/json" majorVersion="9" minorVersion="5" universal="password">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities headers="X-XSRF-TOKEN=TWX-XSRF-TOKEN-VALUE:appKey=089a566e-e2e1-47a5-bd52-f13c330cebd9:Content-Type=application/json" majorVersion="9" minorVersion="5" universal="password">
     <Things>
-        <Thing description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" inheritedValueStream="" name="PTCSC.TestBB.Manager" projectName="PTCSC.TestBB" published="false" tags="" thingTemplate="PTCSC.TestBB.Manager_TT" valueStream="">
+        <Thing aspect.isSystemObject="false" description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" inheritedValueStream="" name="PTCSC.TestBB.Manager" projectName="PTCSC.TestBB" published="false" tags="" thingTemplate="PTCSC.TestBB.Manager_TT" valueStream="">
             <avatar/>
             <DesignTimePermissions>
                 <Create/>
@@ -11,7 +11,10 @@
             </DesignTimePermissions>
             <RunTimePermissions/>
             <VisibilityPermissions>
-                <Visibility/>
+                <Visibility>
+                    <Principal isPermitted="true" name="PTCSC.TestBB.Default_OR" type="Organization"/>
+                    <Principal isPermitted="true" name="PTCSC.TestBB.Default_OR:PTCSC.TestBB.Admin_UG" type="OrganizationalUnit"/>
+                </Visibility>
             </VisibilityPermissions>
             <ConfigurationTableDefinitions/>
             <ConfigurationTables>
